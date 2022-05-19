@@ -29,11 +29,11 @@ while True:
         break
     elif user_guess > random_number:
         print("You were above the number!")
-    elif user_guess == random_number+1:
+    if user_guess == random_number+1:
         print("but not by much!")
     elif user_guess < random_number:
         print("You were below the number!")
-    elif user_guess == random_number-1:
+    if user_guess == random_number-1:
         print("but not by much!")
     
             
